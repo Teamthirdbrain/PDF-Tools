@@ -1,7 +1,6 @@
 # PDF-Tools
 This repository contains three pdf tools 
-1)PDF to JPEG:
-# PDFtoJPEG
+# 1)PDFtoJPEG
 PDF to JPEG Converter
 This Python script allows users to convert each page of a PDF file to a JPEG image. It utilizes the fitz module from the PyMuPDF library to handle the PDF file and the PIL (Python Imaging Library) library to save the PDF pages as JPEG images.
 
@@ -33,8 +32,7 @@ Make sure to have both PyMuPDF and Pillow installed before running the script.
 The converted images will be saved with the chosen file names and locations specified by the user.
 
 
-2)PDF Splitter:
-# PDF Splitter
+# 2)PDF Splitter
 
 A Python script that allows you to split a PDF file into multiple smaller PDF files based on page ranges.
 
@@ -75,8 +73,7 @@ This Python script uses the PyPDF2 library to split a given PDF file into multip
 
 The resulting split PDF files will be saved in the chosen output directory.
 
-3)PDF Merger:
-# PDFMERGER
+# 3)PDFMERGER
 Python  code for merging the pdf
 
 Run the code and there will be a opening of dialog box in the window select the pdf files and run it will ask where to save and the name of the merged pdf.
